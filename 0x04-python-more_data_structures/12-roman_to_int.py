@@ -9,7 +9,7 @@ def roman_intVal(r):
         "D":500,
         "M":1000
     }
-    return dict[r] if r in dict else -1 
+    return dict[r] if r in dict else 0 
 
 def roman_to_decimal(str):
     res = 0
